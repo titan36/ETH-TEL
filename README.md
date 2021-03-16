@@ -1,5 +1,5 @@
 <h1 align="center">
-  ETH TEL
+  ETH TEL 📱
 </h1>
 
 ## About
@@ -49,3 +49,4 @@ This is an Android Application That provide All ethiotelecom service.
 
 <br>
 <p align="center">Made with ❤️ By <a href="https://t.me/ag3m3chu"> 丹 乃 刀 工 </a></p>
+<p align="center" style="font-size: 8px">version 1.0.0</p>
