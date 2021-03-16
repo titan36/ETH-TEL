@@ -1,0 +1,905 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/dailyColorVoiceData"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="@string/daily"
+                android:textSize="20dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="8dp"
+                android:textColor="#fff"
+                android:background="#6065FF"
+                android:fontFamily="@font/mm"
+                android:gravity="center"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:layout_marginBottom="3dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/selector" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_marginTop="5dp"
+                android:id="@+id/btn1">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/_10_minutes_n145_mb_n10_sms_nprice_12_etb"
+                    android:textSize="15dp"
+                    android:textColor="#fff"
+                    android:fontFamily="@font/mr"
+                    android:layout_centerVertical="true" />
+                <Button
+                    android:layout_width="60dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/openBuy12VD"
+                    android:text="@string/buy"
+                    android:textColor="#FFF"
+                    android:fontFamily="@font/mm"
+                    android:background="@drawable/selector_blue"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:layout_marginBottom="3dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/selector" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_marginTop="5dp"
+                android:id="@+id/btn2">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/_35_minutes_n145_mb_n10_sms_nprice_19_etb"
+                    android:textSize="15dp"
+                    android:textColor="#fff"
+                    android:fontFamily="@font/mr"
+                    android:layout_centerVertical="true" />
+                <Button
+                    android:layout_width="60dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/openBuy19VD"
+                    android:text="@string/buy"
+                    android:textColor="#FFF"
+                    android:fontFamily="@font/mm"
+                    android:background="@drawable/selector_blue"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:layout_marginBottom="3dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/selector" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_marginTop="5dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/_10_minutes_n500_mb_n10_sms_nprice_29_etb"
+                    android:textSize="15dp"
+                    android:textColor="#fff"
+                    android:fontFamily="@font/mr"
+                    android:layout_centerVertical="true" />
+                <Button
+                    android:layout_width="60dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/openBuy29VD"
+                    android:text="@string/buy"
+                    android:textColor="#FFF"
+                    android:fontFamily="@font/mm"
+                    android:background="@drawable/selector_blue"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:layout_marginBottom="3dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/selector" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_marginTop="5dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/_35_minutes_n500_mb_n10_sms_nprice_36_etb"
+                    android:textSize="15dp"
+                    android:textColor="#fff"
+                    android:fontFamily="@font/mr"
+                    android:layout_centerVertical="true" />
+                <Button
+                    android:layout_width="60dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/openBuy36VD"
+                    android:text="@string/buy"
+                    android:textColor="#FFF"
+                    android:fontFamily="@font/mm"
+                    android:background="@drawable/selector_blue"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:layout_marginBottom="3dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/selector" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_marginTop="5dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/_10_minutes_n1_gb_n10_sms_nprice_46_etb"
+                    android:textSize="15dp"
+                    android:textColor="#fff"
+                    android:fontFamily="@font/mr"
+                    android:layout_centerVertical="true" />
+                <Button
+                    android:layout_width="60dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/openBuy46VD"
+                    android:text="@string/buy"
+                    android:textColor="#FFF"
+                    android:fontFamily="@font/mm"
+                    android:background="@drawable/selector_blue"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:layout_marginBottom="3dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/selector" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_marginTop="5dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/_35_minutes_n1_gb_n10_sms_nprice_52_etb"
+                    android:textSize="15dp"
+                    android:textColor="#fff"
+                    android:fontFamily="@font/mr"
+                    android:layout_centerVertical="true" />
+                <Button
+                    android:layout_width="60dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/openBuy52VD"
+                    android:text="@string/buy"
+                    android:textColor="#FFF"
+                    android:fontFamily="@font/mm"
+                    android:background="@drawable/selector_blue"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:layout_marginBottom="3dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/selector" />
+
+            <TextView
+                android:id="@+id/weeklyColorVoiceData"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="@string/weekly"
+                android:fontFamily="@font/mm"
+                android:background="#6065FF"
+                android:textSize="20dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="12dp"
+                android:textColor="#fff"
+                android:gravity="center"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:layout_marginBottom="3dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/selector" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_marginTop="5dp"
+                android:id="@+id/btn4">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/_60_minutes_n500_mb_n20_sms_nprice_50_etb"
+                    android:textSize="15dp"
+                    android:textColor="#fff"
+                    android:fontFamily="@font/mr"
+                    android:layout_centerVertical="true" />
+                <Button
+                    android:layout_width="60dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/openBuy50VW"
+                    android:text="@string/buy"
+                    android:textColor="#FFF"
+                    android:fontFamily="@font/mm"
+                    android:background="@drawable/selector_blue"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:layout_marginBottom="3dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/selector" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_marginTop="5dp"
+                android:id="@+id/btn5">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/_80_minutes_n500_mb_n20_sms_nprice_55_etb"
+                    android:textSize="15dp"
+                    android:textColor="#fff"
+                    android:fontFamily="@font/mr"
+                    android:layout_centerVertical="true" />
+                <Button
+                    android:layout_width="60dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/openBuy55VW"
+                    android:text="@string/buy"
+                    android:textColor="#FFF"
+                    android:fontFamily="@font/mm"
+                    android:background="@drawable/selector_blue"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:layout_marginBottom="3dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/selector" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_marginTop="5dp"
+                android:id="@+id/btn6">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/_60_minutes_n1_gb_n20_sms_nprice_81_etb"
+                    android:textSize="15dp"
+                    android:textColor="#fff"
+                    android:fontFamily="@font/mr"
+                    android:layout_centerVertical="true" />
+                <Button
+                    android:layout_width="60dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/openBuy81VW"
+                    android:text="@string/buy"
+                    android:textColor="#FFF"
+                    android:fontFamily="@font/mm"
+                    android:background="@drawable/selector_blue"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:layout_marginBottom="3dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/selector" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_marginTop="5dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/_80_minutes_n1_gb_n20_sms_nprice_86_etb"
+                    android:textSize="15dp"
+                    android:textColor="#fff"
+                    android:fontFamily="@font/mr"
+                    android:layout_centerVertical="true" />
+                <Button
+                    android:layout_width="60dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/openBuy86VW"
+                    android:text="@string/buy"
+                    android:textColor="#FFF"
+                    android:fontFamily="@font/mm"
+                    android:background="@drawable/selector_blue"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:layout_marginBottom="3dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/selector" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_marginTop="5dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/_60_minutes_n2_gb_n20_sms_nprice_128_etb"
+                    android:textSize="15dp"
+                    android:textColor="#fff"
+                    android:fontFamily="@font/mr"
+                    android:layout_centerVertical="true" />
+                <Button
+                    android:layout_width="60dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/openBuy128VW"
+                    android:text="@string/buy"
+                    android:textColor="#FFF"
+                    android:fontFamily="@font/mm"
+                    android:background="@drawable/selector_blue"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:layout_marginBottom="3dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/selector" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_marginTop="5dp"
+                android:id="@+id/btn3">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/_80_minutes_n2_gb_n20_sms_nprice_133_etb"
+                    android:textSize="15dp"
+                    android:textColor="#fff"
+                    android:fontFamily="@font/mr"
+                    android:layout_centerVertical="true" />
+                <Button
+                    android:layout_width="60dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/openBuy133VW"
+                    android:text="@string/buy"
+                    android:textColor="#FFF"
+                    android:fontFamily="@font/mm"
+                    android:background="@drawable/selector_blue"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:layout_marginBottom="3dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/selector" />
+
+            <TextView
+                android:id="@+id/monthlyColorVoiceData"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="@string/monthly"
+                android:textSize="20dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="12dp"
+                android:textColor="#fff"
+                android:gravity="center"
+                android:fontFamily="@font/mm"
+                android:background="#6065FF"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:layout_marginBottom="3dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/selector" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_marginTop="5dp"
+                android:id="@+id/btn7">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/_100_minutes_n2_gb_n50_sms_nprice_157_etb"
+                    android:textSize="15dp"
+                    android:textColor="#fff"
+                    android:fontFamily="@font/mr"
+                    android:layout_centerVertical="true" />
+                <Button
+                    android:layout_width="60dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/openBuy157VM"
+                    android:text="@string/buy"
+                    android:textColor="#FFF"
+                    android:fontFamily="@font/mm"
+                    android:background="@drawable/selector_blue"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:layout_marginBottom="3dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/selector" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_marginTop="5dp"
+                android:id="@+id/btn8">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/_300_minutes_n2_gb_n50_sms_nprice_214_etb"
+                    android:textSize="15dp"
+                    android:textColor="#fff"
+                    android:fontFamily="@font/mr"
+                    android:layout_centerVertical="true" />
+                <Button
+                    android:layout_width="60dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/openBuy214VM"
+                    android:text="@string/buy"
+                    android:textColor="#FFF"
+                    android:fontFamily="@font/mm"
+                    android:background="@drawable/selector_blue"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:layout_marginBottom="3dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/selector" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_marginTop="5dp"
+                android:id="@+id/btn9">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/_400_minutes_n2_gb_n50_sms_nprice_238_etb"
+                    android:textSize="15dp"
+                    android:textColor="#fff"
+                    android:fontFamily="@font/mr"
+                    android:layout_centerVertical="true" />
+                <Button
+                    android:layout_width="60dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/openBuy238VM"
+                    android:text="@string/buy"
+                    android:textColor="#FFF"
+                    android:fontFamily="@font/mm"
+                    android:background="@drawable/selector_blue"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:layout_marginBottom="3dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/selector" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_marginTop="5dp"
+                android:id="@+id/btn10">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/_500_minutes_n2_gb_n50_sms_nprice_257_etb"
+                    android:textSize="15dp"
+                    android:textColor="#fff"
+                    android:fontFamily="@font/mr"
+                    android:layout_centerVertical="true" />
+                <Button
+                    android:layout_width="60dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/openBuy257VM"
+                    android:text="@string/buy"
+                    android:textColor="#FFF"
+                    android:fontFamily="@font/mm"
+                    android:background="@drawable/selector_blue"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:layout_marginBottom="3dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/selector" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_marginTop="5dp"
+                android:id="@+id/btn11">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/_1000_minutes_n2_gb_n50_sms_nprice_360_etb"
+                    android:textSize="15dp"
+                    android:textColor="#fff"
+                    android:fontFamily="@font/mr"
+                    android:layout_centerVertical="true" />
+                <Button
+                    android:layout_width="60dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/openBuy360VM"
+                    android:text="@string/buy"
+                    android:textColor="#FFF"
+                    android:fontFamily="@font/mm"
+                    android:background="@drawable/selector_blue"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:layout_marginBottom="3dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/selector" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_marginTop="5dp"
+                android:id="@+id/btn12">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/_100_minutes_n4_gb_n50_sms_nprice_270_etb"
+                    android:textSize="15dp"
+                    android:textColor="#fff"
+                    android:fontFamily="@font/mr"
+                    android:layout_centerVertical="true" />
+                <Button
+                    android:layout_width="60dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/openBuy270VM"
+                    android:text="@string/buy"
+                    android:textColor="#FFF"
+                    android:fontFamily="@font/mm"
+                    android:background="@drawable/selector_blue"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:layout_marginBottom="3dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/selector" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_marginTop="5dp"
+                android:id="@+id/btn13">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/_300_minutes_n4_gb_n50_sms_nprice_328_etb"
+                    android:textSize="15dp"
+                    android:textColor="#fff"
+                    android:fontFamily="@font/mr"
+                    android:layout_centerVertical="true" />
+                <Button
+                    android:layout_width="60dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/openBuy328VM"
+                    android:text="@string/buy"
+                    android:textColor="#FFF"
+                    android:fontFamily="@font/mm"
+                    android:background="@drawable/selector_blue"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:layout_marginBottom="3dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/selector" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_marginTop="5dp"
+                android:id="@+id/btn14">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="400 Minutes\n4 GB\n50 SMS\nPrice : 352 ETB"
+                    android:textSize="15dp"
+                    android:textColor="#fff"
+                    android:fontFamily="@font/mr"
+                    android:layout_centerVertical="true" />
+                <Button
+                    android:layout_width="60dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/openBuy352VM"
+                    android:text="@string/buy"
+                    android:textColor="#FFF"
+                    android:fontFamily="@font/mm"
+                    android:background="@drawable/selector_blue"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:layout_marginBottom="3dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/selector" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_marginTop="5dp"
+                android:id="@+id/btn15">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/_500_minutes_n4_gb_n50_sms_nprice_371_etb"
+                    android:textSize="15dp"
+                    android:textColor="#fff"
+                    android:fontFamily="@font/mr"
+                    android:layout_centerVertical="true" />
+                <Button
+                    android:layout_width="60dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/openBuy371VM"
+                    android:text="@string/buy"
+                    android:textColor="#FFF"
+                    android:fontFamily="@font/mm"
+                    android:background="@drawable/selector_blue"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:layout_marginBottom="3dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/selector" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_marginTop="5dp"
+                android:id="@+id/btn16">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/_1000_minutes_n4_gb_n50_sms_nprice_466_etb"
+                    android:textSize="15dp"
+                    android:textColor="#fff"
+                    android:fontFamily="@font/mr"
+                    android:layout_centerVertical="true" />
+                <Button
+                    android:layout_width="60dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/openBuy466VM"
+                    android:text="@string/buy"
+                    android:textColor="#FFF"
+                    android:fontFamily="@font/mm"
+                    android:background="@drawable/selector_blue"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:layout_marginBottom="3dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/selector" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_marginTop="5dp"
+                android:id="@+id/btn17">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/_100_minutes_nunlimited_internet_n50_sms_nprice_1514_etb"
+                    android:textSize="15dp"
+                    android:textColor="#fff"
+                    android:fontFamily="@font/mr"
+                    android:layout_centerVertical="true" />
+                <Button
+                    android:layout_width="60dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/openBuy1514VM"
+                    android:text="@string/buy"
+                    android:textColor="#FFF"
+                    android:fontFamily="@font/mm"
+                    android:background="@drawable/selector_blue"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:layout_marginBottom="3dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/selector" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_marginTop="5dp"
+                android:id="@+id/btn18">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/_300_minutes_nunlimited_internet_n50_sms_nprice_1525_etb"
+                    android:textSize="15dp"
+                    android:textColor="#fff"
+                    android:fontFamily="@font/mr"
+                    android:layout_centerVertical="true" />
+                <Button
+                    android:layout_width="60dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/openBuy1525VM"
+                    android:text="@string/buy"
+                    android:textColor="#FFF"
+                    android:fontFamily="@font/mm"
+                    android:background="@drawable/selector_blue"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:layout_marginBottom="3dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/selector" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_marginTop="5dp"
+                android:id="@+id/btn23">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/_400_minutes_nunlimited_internet_n50_sms_nprice_1549_etb"
+                    android:textSize="15dp"
+                    android:textColor="#fff"
+                    android:fontFamily="@font/mr"
+                    android:layout_centerVertical="true" />
+                <Button
+                    android:layout_width="60dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/openBuy1549VM"
+                    android:text="@string/buy"
+                    android:textColor="#FFF"
+                    android:fontFamily="@font/mm"
+                    android:background="@drawable/selector_blue"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:layout_marginBottom="3dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/selector" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_marginTop="5dp"
+                android:id="@+id/btn24">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/_500_minutes_nunlimited_internet_n50_sms_nprice_1568_etb"
+                    android:textSize="15dp"
+                    android:textColor="#fff"
+                    android:fontFamily="@font/mr"
+                    android:layout_centerVertical="true" />
+                <Button
+                    android:layout_width="60dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/openBuy1568VM"
+                    android:text="@string/buy"
+                    android:textColor="#FFF"
+                    android:fontFamily="@font/mm"
+                    android:background="@drawable/selector_blue"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:layout_marginBottom="3dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/selector" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_marginTop="5dp"
+                android:id="@+id/btn25">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/_1000_minutes_nunlimited_internet_n50_sms_nprice_1663_etb"
+                    android:textSize="15dp"
+                    android:textColor="#fff"
+                    android:fontFamily="@font/mr"
+                    android:layout_centerVertical="true" />
+                <Button
+                    android:layout_width="60dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/openBuy1663VM"
+                    android:text="@string/buy"
+                    android:textColor="#FFF"
+                    android:fontFamily="@font/mm"
+                    android:background="@drawable/selector_blue"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:layout_marginBottom="3dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/selector" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@drawable/rounded_shape_card">
+	<androidx.constraintlayout.widget.Guideline
+		android:id="@+id/guideline"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		app:layout_constraintGuide_end="245.0dip" />
+	<TextView
+		android:id="@+id/intro_title"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/intro_img"
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="20.0dip"
+		android:text="TextView"
+		android:fontFamily="@font/mm"
+		android:textColor="@color/intro_title_color"
+		android:textSize="28.0dip"
+		android:textStyle="bold" />
+	<TextView
+		android:id="@+id/intro_description"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/intro_title"
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="10.0dip"
+		android:fontFamily="@font/mm"
+		android:gravity="center"
+		android:text="TextView"
+		android:textColor="@color/intro_description_color"
+		android:textSize="13.0sp"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintRight_toRightOf="parent"
+		app:layout_constraintTop_toBottomOf="@id/intro_title" />
+	<ImageView
+		android:id="@+id/intro_img"
+		android:layout_width="170.0dip"
+		android:layout_height="170.0dip"
+		android:layout_below="@id/guideline"
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="20.0dip"
+		android:src="@drawable/safe"/>
+</RelativeLayout>

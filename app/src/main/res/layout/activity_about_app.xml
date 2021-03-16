@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    tools:context=".Settings.AboutAppActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        app:title="About Us"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:id="@+id/toolbarAbout"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+            <TextView
+                android:id="@+id/esTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="@string/app_name"
+                android:fontFamily="@font/mm"
+                android:textColor="#fff"
+                android:textSize="30sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:text="Version 1.2.3"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:text="Copyright © 2019,2021. All right reserved"/>
+            <TextView
+                android:id="@+id/privacyTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:fontFamily="@font/mm"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="5dp"
+                android:textSize="20sp"
+                android:text="Privacy"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/selector" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:text="By using ETH TEL, you agree to ETH TEL's Privacy"/>
+
+            <TextView
+                android:id="@+id/openPrivacy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:text="Read Privacy"/>
+
+            <TextView
+                android:id="@+id/supportTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:fontFamily="@font/mm"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="5dp"
+                android:textSize="20sp"
+                android:text="Support"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/selector" />
+            <TextView
+                android:id="@+id/supportText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:text="Please leave question, bug reports, or comments on the forum. If you want to upgrade this App by translating or adding futures"/>
+            <TextView
+                android:id="@+id/myEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:text="You Can Contact Us"/>
+            <TextView
+                android:id="@+id/JoinUs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#4285F4"
+                android:fontFamily="@font/mm"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="5dp"
+                android:textSize="20sp"
+                android:text="Join Us"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/selector" />
+            <TextView
+                android:id="@+id/joinTelegramChannel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:text="@string/telegramChannel"/>
+            <TextView
+                android:id="@+id/JoinUsText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:text="To Get Latest Update Info Of ETH TEL App"/>
+
+            <TextView
+                android:id="@+id/getInTouch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#4285F4"
+                android:fontFamily="@font/mm"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="5dp"
+                android:textSize="20sp"
+                android:text="Get In Touch"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/selector" />
+            <TextView
+                android:id="@+id/getInTouchText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:text="Whether you have a question or just want to say Hi, i will try my best to get back to you!."/>
+            <TextView
+                android:id="@+id/myTgAccount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:text="@string/myTelegram"/>
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/Donate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#4285F4"
+                android:fontFamily="@font/mm"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="5dp"
+                android:textSize="20sp"
+                android:text="Donate"/>
+            <View
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/selector" />
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/DonateText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:text="If You Love ETH TEL Transfer Mobile Card To The Developer"/>
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/openDonatePage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:text="Donate Now"/>
+            <TextView
+                android:id="@+id/thanksTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:textSize="20sp"
+                android:fontFamily="@font/mm"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="5dp"
+                android:text="Thanks to"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/selector" />
+            <TextView
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:text="Hunde Zelalem - Logo Design"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:text="Bikila Megersa - Amharic translation"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:text="and To all my friends and people who help me to continue improving my work through their suggestions"/>
+            <TextView
+                android:id="@+id/barataa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/link"
+                android:textColor="#fff"
+                android:textColorLink="#fff" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/mm"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Made With ❤ by 丹 乃 刀 工"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

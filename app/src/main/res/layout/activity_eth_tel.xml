@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="280dp"
+    android:layout_height="wrap_content"
+    android:id="@+id/background">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="280dp"
+        android:layout_height="35dp"
+        android:background="@drawable/bluebutton"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text="@string/app_name"
+        android:textColor="#ffffffff"
+        android:textAllCaps="true"
+        android:textSize="14.0sp" />
+    <LinearLayout
+        android:id="@+id/myLayout"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView">
+        <Button
+            android:id="@+id/rateES"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/custom_button"
+            android:drawableLeft="@drawable/star_rate"
+            android:drawableRight="@drawable/star_rate"
+            android:text="@string/rate_me"
+            android:textColor="#fff"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/shareES"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/custom_button"
+            android:drawableLeft="@drawable/share"
+            android:drawableRight="@drawable/share"
+            android:text="@string/Share"
+            android:textColor="#fff"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/updateES"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/custom_button"
+            android:drawableLeft="@drawable/update"
+            android:drawableRight="@drawable/update"
+            android:text="@string/update"
+            android:textColor="#fff"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/feedBackToES"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/custom_button"
+            android:drawableLeft="@drawable/feedback"
+            android:drawableRight="@drawable/feedback"
+            android:text="@string/feedback"
+            android:textColor="#fff"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/aboutUs"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/custom_button"
+            android:drawableLeft="@drawable/info"
+            android:drawableRight="@drawable/info"
+            android:text="@string/about_us"
+            android:textColor="#fff"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+</RelativeLayout>

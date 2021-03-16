@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/dailyColorInt"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="5dp"
+                android:background="@color/blueText"
+                android:fontFamily="@font/mm"
+                android:gravity="center"
+                android:text="@string/daily"
+                android:textColor="#fff"
+                android:textSize="20dp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:layout_marginBottom="3dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/selector" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="5dp"
+                android:id="@+id/btn30">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/_300_flexi_unit_nfree_30_flexi_unit_nprice_15_etb"
+                    android:textSize="15dp"
+                    android:textColor="#fff"
+                    android:fontFamily="@font/mr"
+                    android:layout_centerVertical="true" />
+                <Button
+                    android:layout_width="60dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/openBuy300"
+                    android:text="@string/buy"
+                    android:textColor="#FFF"
+                    android:fontFamily="@font/mm"
+                    android:background="@drawable/selector_blue"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:layout_marginBottom="3dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/selector" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="5dp"
+                android:id="@+id/btn39">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/_410_flexi_unit_nfree_40_flexi_unit_nprice_20_etb"
+                    android:textSize="15dp"
+                    android:textColor="#fff"
+                    android:fontFamily="@font/mr"
+                    android:layout_centerVertical="true" />
+                <Button
+                    android:layout_width="60dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/openBuy410"
+                    android:text="@string/buy"
+                    android:textColor="#FFF"
+                    android:fontFamily="@font/mm"
+                    android:background="@drawable/selector_blue"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:layout_marginBottom="3dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/selector" />
+
+            <TextView
+                android:id="@+id/weeklyColorInt"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="@string/weekly"
+                android:textSize="20dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="12dp"
+                android:gravity="center"
+                android:textColor="#fff"
+                android:fontFamily="@font/mm"
+                android:background="@color/blueText"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:layout_marginBottom="3dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/selector" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="5dp"
+                android:id="@+id/btn5">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/_1150_flexi_unit_nfree_120_flexi_unit_nprice_50_etb"
+                    android:textSize="15dp"
+                    android:textColor="#fff"
+                    android:fontFamily="@font/mr"
+                    android:layout_centerVertical="true" />
+                <Button
+                    android:layout_width="60dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/openBuy1150"
+                    android:text="@string/buy"
+                    android:textColor="#FFF"
+                    android:fontFamily="@font/mm"
+                    android:background="@drawable/selector_blue"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:layout_marginBottom="3dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/selector" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="5dp"
+                android:id="@+id/btn36">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/_1900_flexi_unit_nfree_200_flexi_unit_nprice_80_etb"
+                    android:textSize="15dp"
+                    android:textColor="#fff"
+                    android:fontFamily="@font/mr"
+                    android:layout_centerVertical="true" />
+                <Button
+                    android:layout_width="60dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/openBuy1900"
+                    android:text="@string/buy"
+                    android:textColor="#FFF"
+                    android:fontFamily="@font/mm"
+                    android:background="@drawable/selector_blue"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:layout_marginBottom="3dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/selector" />
+
+            <TextView
+                android:id="@+id/monthlyColorInt"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="@string/monthly"
+                android:textSize="20dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="12dp"
+                android:gravity="center"
+                android:textColor="#fff"
+                android:fontFamily="@font/mm"
+                android:background="@color/blueText"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:layout_marginBottom="3dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/selector" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="5dp"
+                android:id="@+id/btn7">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/_1900_flexi_unit_nfree_260_flexi_unit_nprice_100_etb"
+                    android:textSize="15dp"
+                    android:textColor="#fff"
+                    android:fontFamily="@font/mr"
+                    android:layout_centerVertical="true" />
+                <Button
+                    android:layout_width="60dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/openBuy1900M"
+                    android:text="@string/buy"
+                    android:textColor="#FFF"
+                    android:fontFamily="@font/mm"
+                    android:background="@drawable/selector_blue"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:layout_marginBottom="3dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/selector" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="5dp"
+                android:id="@+id/btn3764">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/_3200_flexi_unit_nfree_400_flexi_unit_nprice_150_etb"
+                    android:textSize="15dp"
+                    android:textColor="#fff"
+                    android:fontFamily="@font/mr"
+                    android:layout_centerVertical="true" />
+                <Button
+                    android:layout_width="60dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/openBuy3200"
+                    android:text="@string/buy"
+                    android:textColor="#FFF"
+                    android:fontFamily="@font/mm"
+                    android:background="@drawable/selector_blue"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:layout_marginBottom="3dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/selector" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

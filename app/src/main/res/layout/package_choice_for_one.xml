@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/myLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <RelativeLayout
+        android:id="@+id/background"
+        android:layout_width="270.0dip"
+        android:layout_height="wrap_content"
+        android:padding="5dp">
+        <TextView
+            android:id="@+id/packageDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorAccent"
+            android:text="Description"
+            android:textStyle="bold"
+            android:fontFamily="@font/mm"
+            android:gravity="center"/>
+        <View
+            android:id="@+id/viewLine"
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/packageDescription"
+            android:background="@drawable/selector" />
+        <CheckBox
+            android:visibility="gone"
+            android:id="@+id/forGiftChecked"
+            android:layout_width="fill_parent"
+            android:buttonTint="@color/colorAccent"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:background="@drawable/invisible_background"
+            android:fontFamily="@font/mm"
+            android:layout_height="35.0dip"
+            android:layout_marginLeft="4.0dip"
+            android:layout_marginRight="4.0dip"
+            android:layout_below="@+id/viewLine"
+            android:text="@string/for_gift"
+            android:textColor="#ffffffff" />
+
+        <Button
+            android:id="@+id/buyForSelf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/viewLine2"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="5.0dip"
+            android:background="@drawable/selector_blue"
+            android:fontFamily="@font/mm"
+            android:text="@string/for_your_self"
+            android:textColor="#ffffffff"
+            android:textSize="12.0sp" />
+        <Button
+            android:id="@+id/cancelForSelf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/viewLine2"
+            android:fontFamily="@font/mm"
+            android:layout_alignParentLeft="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:background="@drawable/invisible_background"
+            android:layout_marginTop="5.0dip"
+            android:gravity="center|left"
+            android:textColor="@color/colorAccent"
+            android:text="@string/cancel"
+            android:textSize="12.0sp" />
+
+        <Button
+            android:visibility="gone"
+            android:id="@+id/buyForGift"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ti_recharge"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="10.0dip"
+            android:background="@drawable/selector_blue"
+            android:enabled="false"
+            android:fontFamily="@font/mm"
+            android:text="@string/for_gift"
+            android:textColor="#ffffffff"
+            android:textSize="12.0sp" />
+        <Button
+            android:visibility="gone"
+            android:id="@+id/cancelForGift"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ti_recharge"
+            android:fontFamily="@font/mm"
+            android:textColor="@color/colorAccent"
+            android:layout_alignParentLeft="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:background="@drawable/invisible_background"
+            android:layout_marginTop="10.0dip"
+            android:gravity="center|left"
+            android:text="@string/cancel"
+            android:textSize="12.0sp" />
+
+        <View
+            android:visibility="gone"
+            android:id="@+id/viewLine2"
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:layout_below="@+id/forGiftChecked"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/selector" />
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/ti_recharge"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/forGiftChecked"
+            android:textColorHint="@color/colorAccent"
+            android:theme="@style/TextInputLayoutAppearance"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            android:visibility="gone">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/phone"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/phone_number"
+                android:fontFamily="@font/mr"
+                android:imeOptions="actionDone"
+                android:inputType="number"
+                android:maxLength="10"
+                android:textColor="#fff"
+                android:textSize="15.0sp" />
+            <ImageView
+                android:id="@+id/selectContact"
+                android:layout_width="35.0dip"
+                android:layout_height="35.0dip"
+                android:layout_gravity="right"
+                android:layout_marginTop="-45.0dip"
+                android:background="@drawable/contact" />
+        </com.google.android.material.textfield.TextInputLayout>
+    </RelativeLayout>
+</ScrollView>

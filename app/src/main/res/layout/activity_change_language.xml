@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/myLayout"
+	android:layout_width="265dp"
+	android:layout_height="wrap_content"
+	android:orientation="vertical">
+	<TextView
+		android:id="@+id/textView"
+		android:layout_width="match_parent"
+		android:layout_height="35dp"
+		android:background="@drawable/bluebutton"
+		android:gravity="center"
+		android:textStyle="bold"
+		android:text="@string/change_language"
+		android:textColor="#ffffffff"
+		android:textAllCaps="true"
+		android:textSize="14.0sp" />
+	<LinearLayout
+		android:id="@+id/background"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/textView"
+		android:orientation="vertical"
+		android:padding="4.0dip">
+		<RelativeLayout
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent">
+			<ImageView
+				android:id="@+id/setEnglish1"
+				android:layout_width="25.0dip"
+				android:layout_height="25.0dip"
+				android:layout_alignParentRight="true"
+				android:layout_marginTop="23.0dip"
+				android:layout_marginRight="18.0dip"
+				android:background="@drawable/active" />
+			<Button
+				android:id="@+id/english"
+				android:layout_width="fill_parent"
+				android:layout_height="50.0dip"
+				android:layout_marginLeft="10.0dip"
+				android:layout_marginTop="10.0dip"
+				android:layout_marginRight="10.0dip"
+				android:background="@drawable/custom_button"
+				android:gravity="center"
+				android:text="ENGLISH"
+				android:textColor="#ffffffff"
+				android:textSize="14.0sp" />
+			<ImageView
+				android:id="@+id/setEnglish2"
+				android:layout_width="25.0dip"
+				android:layout_height="25.0dip"
+				android:layout_alignParentLeft="true"
+				android:layout_marginLeft="18.0dip"
+				android:layout_marginTop="23.0dip"
+				android:background="@drawable/active" />
+		</RelativeLayout>
+		<RelativeLayout
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent">
+			<ImageView
+				android:id="@+id/setOromo1"
+				android:layout_width="25.0dip"
+				android:layout_height="25.0dip"
+				android:layout_alignParentRight="true"
+				android:layout_marginTop="23.0dip"
+				android:layout_marginRight="18.0dip"
+				android:background="@drawable/active" />
+			<Button
+				android:id="@+id/oromoo"
+				android:layout_width="fill_parent"
+				android:layout_height="50.0dip"
+				android:layout_marginLeft="10.0dip"
+				android:layout_marginTop="10.0dip"
+				android:layout_marginRight="10.0dip"
+				android:background="@drawable/custom_button"
+				android:gravity="center"
+				android:text="AFAAN OROMOO"
+				android:textColor="#ffffffff"
+				android:textSize="14.0sp" />
+			<ImageView
+				android:id="@+id/setOromo2"
+				android:layout_width="25.0dip"
+				android:layout_height="25.0dip"
+				android:layout_alignParentLeft="true"
+				android:layout_marginLeft="18.0dip"
+				android:layout_marginTop="23.0dip"
+				android:background="@drawable/active" />
+		</RelativeLayout>
+		<RelativeLayout
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:layout_marginBottom="10.0dip">
+			<ImageView
+				android:id="@+id/setAmhara1"
+				android:layout_width="25.0dip"
+				android:layout_height="25.0dip"
+				android:layout_alignParentRight="true"
+				android:layout_marginTop="23.0dip"
+				android:layout_marginRight="18.0dip"
+				android:layout_marginBottom="8.0dip"
+				android:background="@drawable/active" />
+			<Button
+				android:id="@+id/amharic"
+				android:layout_width="fill_parent"
+				android:layout_height="50.0dip"
+				android:layout_marginLeft="10.0dip"
+				android:layout_marginTop="10.0dip"
+				android:layout_marginRight="10.0dip"
+				android:background="@drawable/custom_button"
+				android:gravity="center"
+				android:text="አማርኛ"
+				android:textColor="#ffffffff"
+				android:textSize="14.0sp" />
+			<ImageView
+				android:id="@+id/setAmhara2"
+				android:layout_width="25.0dip"
+				android:layout_height="25.0dip"
+				android:layout_alignParentLeft="true"
+				android:layout_marginLeft="18.0dip"
+				android:layout_marginTop="23.0dip"
+				android:layout_marginBottom="8.0dip"
+				android:background="@drawable/active" />
+		</RelativeLayout>
+		<RelativeLayout
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:layout_marginBottom="10.0dip"
+			android:visibility="gone">
+			<ImageView
+				android:id="@+id/setTigre1"
+				android:layout_width="25.0dip"
+				android:layout_height="25.0dip"
+				android:layout_alignParentRight="true"
+				android:layout_marginTop="23.0dip"
+				android:layout_marginRight="18.0dip"
+				android:layout_marginBottom="8.0dip"
+				android:background="@drawable/active" />
+			<Button
+				android:id="@+id/tigrenga"
+				android:layout_width="fill_parent"
+				android:layout_height="50.0dip"
+				android:layout_marginLeft="10.0dip"
+				android:layout_marginTop="10.0dip"
+				android:layout_marginRight="10.0dip"
+				android:background="@drawable/custom_button"
+				android:gravity="center"
+				android:text="ትግርኛ"
+				android:textColor="#ffffffff"
+				android:textSize="14.0sp" />
+			<ImageView
+				android:id="@+id/setTigre2"
+				android:layout_width="25.0dip"
+				android:layout_height="25.0dip"
+				android:layout_alignParentLeft="true"
+				android:layout_marginLeft="18.0dip"
+				android:layout_marginTop="23.0dip"
+				android:layout_marginBottom="8.0dip"
+				android:background="@drawable/active" />
+		</RelativeLayout>
+
+	</LinearLayout>
+</LinearLayout>
+

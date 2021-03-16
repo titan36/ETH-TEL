@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/background"
+    android:orientation="vertical">
+
+    <EditText
+        android:visibility="gone"
+        android:id="@+id/email"
+        android:textColor="#fff"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="ag3m3chu@gmail.com"
+        android:enabled="false"/>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="@drawable/rounded_shape_card"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        />
+
+    <EditText
+        android:visibility="gone"
+        android:id="@+id/subject"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="ETH TEL v1.2.3"
+        android:lines="3"
+        android:gravity="start|top"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"/>
+    <EditText
+        android:id="@+id/message"
+        android:textColor="#fff"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/feedbackHint"
+        android:textColorHint="#fff"
+        android:lines="8"
+        android:gravity="start|top"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/send"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/selector_blue"
+        android:text="@string/send"
+        android:textSize="20sp"
+        android:enabled="false"
+        android:textColor="#fff"
+        />
+</LinearLayout>

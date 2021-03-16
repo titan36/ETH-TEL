@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/background"
+    android:padding="5.0dip">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10.0dip">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/selector" />
+            <RelativeLayout
+                android:id="@+id/backTheme1"
+                android:layout_width="fill_parent"
+                android:layout_height="70.0dip">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="@font/mr"
+                    android:textColor="#fff"
+                    android:text="@string/daily_internet_package_ncredit_70_mb_nprice_5_etb"
+                    android:textSize="15.0dip" />
+                <Button
+                    android:id="@+id/openRequestInternet5"
+                    android:background="@drawable/selector_blue"
+                    android:textColor="#fff"
+                    android:fontFamily="@font/mm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/request" />
+            </RelativeLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/selector" />
+            <RelativeLayout
+                android:id="@+id/backTheme2"
+                android:layout_width="fill_parent"
+                android:layout_height="70.0dip">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="@font/mr"
+                    android:textColor="#fff"
+                    android:text="@string/daily_internet_package_ncredit_145_mb_nprice_10_etb"
+                    android:textSize="15.0dip" />
+                <Button
+                    android:id="@+id/openRequestInternet10"
+                    android:background="@drawable/selector_blue"
+                    android:textColor="#fff"
+                    android:fontFamily="@font/mm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/request" />
+            </RelativeLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/selector" />
+            <RelativeLayout
+                android:id="@+id/backTheme3"
+                android:layout_width="fill_parent"
+                android:layout_height="70.0dip">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="@font/mr"
+                    android:textColor="#fff"
+                    android:text="@string/daily_internet_package_ncredit_250_mb_nprice_15_etb"
+                    android:textSize="15.0dip" />
+                <Button
+                    android:id="@+id/openRequestInternet15"
+                    android:background="@drawable/selector_blue"
+                    android:textColor="#fff"
+                    android:fontFamily="@font/mm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/request" />
+            </RelativeLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/selector" />
+            <RelativeLayout
+                android:id="@+id/backTheme4"
+                android:layout_width="fill_parent"
+                android:layout_height="70.0dip">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/mr"
+                    android:layout_centerVertical="true"
+                    android:text="@string/daily_internet_package_ncredit_500_mb_nprice_28_etb"
+                    android:textColor="#fff"
+                    android:textSize="15.0dip" />
+                <Button
+                    android:id="@+id/openRequestInternet28"
+                    android:background="@drawable/selector_blue"
+                    android:textColor="#fff"
+                    android:fontFamily="@font/mm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/request" />
+            </RelativeLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/selector" />
+            <RelativeLayout
+                android:id="@+id/backTheme5"
+                android:layout_width="fill_parent"
+                android:layout_height="70.0dip">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="@font/mr"
+                    android:textColor="#fff"
+                    android:text="@string/weekly_internet_package_ncredit_750_mb_nprice_55_etb"
+                    android:textSize="15.0dip" />
+                <Button
+                    android:id="@+id/openRequestInternet55"
+                    android:background="@drawable/selector_blue"
+                    android:textColor="#fff"
+                    android:fontFamily="@font/mm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/request" />
+            </RelativeLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/selector" />
+            <RelativeLayout
+                android:id="@+id/backTheme6"
+                android:layout_width="fill_parent"
+                android:layout_height="70.0dip">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="@font/mr"
+                    android:textColor="#fff"
+                    android:text="@string/daily_internet_package_ncredit_1_gb_nprice_70_etb"
+                    android:textSize="15.0dip" />
+                <Button
+                    android:id="@+id/openRequestInternet70"
+                    android:background="@drawable/selector_blue"
+                    android:textColor="#fff"
+                    android:fontFamily="@font/mm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/request" />
+            </RelativeLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/selector" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

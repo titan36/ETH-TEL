@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <color name="colorPrimary">#000</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#ffffff</color>
+
+    <!-- Color For TabLayout -->
+    <color name="colorSelected">#4285F4</color>
+    <color name="colorUnSelected">#fff</color>
+    <color name="colorUnderLine">#DCCCCC</color>
+
+    <!-- Colors for Button -->
+
+    <color name="gradient_start_color">#4285F4</color>
+    <color name="gradient_end_color">#4285F4</color>
+
+    <!-- Colors for Text -->
+    <color name="blueText">#4285F4</color>
+
+    <!-- Colors for tab and screen text -->
+
+    <color name="tab_indicator_gray">#4285F4</color>
+    <color name="intro_title_color">#4285F4</color>
+    <color name="intro_description_color">#fff</color>
+
+    <color name="colorPrimaryPopup">#4285F4</color>
+    <color name="colorPrimaryDarkPopup">#4285F4</color>
+    <color name="colorAccentPopup">#FFF</color>
+
+</resources>

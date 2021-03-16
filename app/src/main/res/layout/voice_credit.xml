@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/background"
+    android:padding="5.0dip">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10.0dip">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/selector" />
+            <RelativeLayout
+                android:id="@+id/backTheme1"
+                android:layout_width="fill_parent"
+                android:layout_height="70.0dip">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="@font/mr"
+                    android:textColor="#fff"
+                    android:text="@string/daily_voice_package_ncredit_17_minutes_nprice_5_etb"
+                    android:textSize="15.0dip" />
+                <Button
+                    android:id="@+id/openRequestVoice5"
+                    android:background="@drawable/selector_blue"
+                    android:textColor="#fff"
+                    android:fontFamily="@font/mm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/request" />
+            </RelativeLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/selector" />
+            <RelativeLayout
+                android:id="@+id/backTheme2"
+                android:layout_width="fill_parent"
+                android:layout_height="70.0dip">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="@font/mr"
+                    android:textColor="#fff"
+                    android:text="@string/daily_voice_package_ncredit_35_minutes_nprice_10_etb"
+                    android:textSize="15.0dip" />
+                <Button
+                    android:id="@+id/openRequestVoice10"
+                    android:background="@drawable/selector_blue"
+                    android:textColor="#fff"
+                    android:fontFamily="@font/mm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/request" />
+            </RelativeLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/selector" />
+            <RelativeLayout
+                android:id="@+id/backTheme3"
+                android:layout_width="fill_parent"
+                android:layout_height="70.0dip">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="@font/mr"
+                    android:textColor="#fff"
+                    android:text="@string/weekly_voice_package_ncredit_60_minutes_nprice_15_etb"
+                    android:textSize="15.0dip" />
+                <Button
+                    android:id="@+id/openRequestVoice15"
+                    android:background="@drawable/selector_blue"
+                    android:textColor="#fff"
+                    android:fontFamily="@font/mm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/request" />
+            </RelativeLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/selector" />
+            <RelativeLayout
+                android:id="@+id/backTheme4"
+                android:layout_width="fill_parent"
+                android:layout_height="70.0dip">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/mr"
+                    android:layout_centerVertical="true"
+                    android:text="@string/weekly_voice_package_ncredit_100_minutes_nprice_25_etb"
+                    android:textColor="#fff"
+                    android:textSize="15.0dip" />
+                <Button
+                    android:id="@+id/openRequestVoice25"
+                    android:background="@drawable/selector_blue"
+                    android:textColor="#fff"
+                    android:fontFamily="@font/mm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/request" />
+            </RelativeLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/selector" />
+            <RelativeLayout
+                android:id="@+id/backTheme5"
+                android:layout_width="fill_parent"
+                android:layout_height="70.0dip">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="@font/mr"
+                    android:textColor="#fff"
+                    android:text="@string/monthly_voice_package_ncredit_150_minutes_nprice_50_etb"
+                    android:textSize="15.0dip" />
+                <Button
+                    android:id="@+id/openRequestVoice50"
+                    android:background="@drawable/selector_blue"
+                    android:textColor="#fff"
+                    android:fontFamily="@font/mm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/request" />
+            </RelativeLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/selector" />
+            <RelativeLayout
+                android:id="@+id/backTheme6"
+                android:layout_width="fill_parent"
+                android:layout_height="70.0dip">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="@font/mr"
+                    android:textColor="#fff"
+                    android:text="@string/monthly_voice_package_ncredit_300_minutes_nprice_95_etb"
+                    android:textSize="15.0dip" />
+                <Button
+                    android:id="@+id/openRequestVoice95"
+                    android:background="@drawable/selector_blue"
+                    android:textColor="#fff"
+                    android:fontFamily="@font/mm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/request" />
+            </RelativeLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/selector" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

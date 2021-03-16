@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/myLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <RelativeLayout
+        android:id="@+id/background"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="@drawable/bluebutton"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="@string/call_me_backs"
+            android:textColor="#ffffffff"
+            android:textAllCaps="true"
+            android:textSize="14.0sp" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_below="@id/textView"
+            android:padding="5dp">
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@id/ti_username"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/callMeBackNumber"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/mr"
+                    android:hint="@string/phone_number"
+                    android:imeOptions="actionDone"
+                    android:inputType="number"
+                    android:maxLength="10"
+                    android:textColor="#fff"
+                    android:textSize="15.0sp" />
+                <ImageView
+                    android:id="@+id/selectCallMeBack"
+                    android:layout_width="35.0dip"
+                    android:layout_height="35.0dip"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="-45.0dip"
+                    android:background="@drawable/contact" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <Button
+                android:id="@+id/callMeBackNow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ti_username"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/selector_blue"
+                android:enabled="false"
+                android:fontFamily="@font/mm"
+                android:text="@string/call_me_back"
+                android:textColor="#ffffffff"
+                android:textSize="12.0sp" />
+            <Button
+                android:id="@+id/cancelCallMeBack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ti_username"
+                android:background="@drawable/rounded_shape_card"
+                android:gravity="center|left"
+                android:fontFamily="@font/mm"
+                android:text="@string/cancel"
+                android:textSize="12.0sp" />
+        </RelativeLayout>
+    </RelativeLayout>
+</ScrollView>

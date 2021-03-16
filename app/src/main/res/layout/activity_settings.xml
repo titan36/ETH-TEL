@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    tools:context=".SecondPage.SettingsActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        app:title="@string/settings"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:id="@+id/toolbarSettings"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/generalColor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="@string/general"
+                android:fontFamily="@font/mr"
+                android:layout_marginLeft="5dp"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:textSize="17sp"
+                android:layout_marginStart="5dp" />
+            <TextView
+                android:id="@+id/language"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:text="@string/selectLang"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:background="@drawable/invisible_background"
+                android:textColor="@color/colorAccent"
+                android:fontFamily="@font/mr"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/selector" />
+            <Switch
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/switchChecker"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/mr"
+                android:track="@drawable/track_blue"
+                android:thumb="@drawable/thumb_blue"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:background="@drawable/invisible_background"
+                android:text="@string/check_my_balance_on_start_up"
+                android:textColor="@color/colorAccent"
+                tools:ignore="UseSwitchCompatOrMaterialXml" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/selector" />
+            <TextView
+                android:id="@+id/advancedColor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/mr"
+                android:text="@string/advanced"
+                android:layout_marginLeft="5dp"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:textSize="17sp"
+                android:layout_marginStart="5dp" />
+
+            <Switch
+                android:id="@+id/touchOutSideActivity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/mr"
+                android:track="@drawable/track_blue"
+                android:thumb="@drawable/thumb_blue"
+                android:text="@string/disable_out_side_touch"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:background="@drawable/invisible_background"
+                android:textColor="@color/colorAccent"
+                tools:ignore="UseSwitchCompatOrMaterialXml" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/selector" />
+            <Switch
+                android:id="@+id/removeNameUnderIcon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/mr"
+                android:track="@drawable/track_blue"
+                android:thumb="@drawable/thumb_blue"
+                android:text="@string/remove_text_under_icon"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:background="@drawable/invisible_background"
+                android:textColor="@color/colorAccent"
+                tools:ignore="UseSwitchCompatOrMaterialXml" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/selector" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

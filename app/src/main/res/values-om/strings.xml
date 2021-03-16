@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ETH TEL</string>
+
+    //Home Activity
+    <string name="recharge">Herrega Guutuu</string>
+    <string name="cancel">Haquu</string>
+    <string name="cardNumber">Lakkoofsa Kaardii Haqamee</string>
+    <string name="phone_number">Lakkoofsa Bilbila</string>
+    <string name="call_me_back"> Deebisa Naaf Bilbilaa</string>
+    <string name="amount">Hanga Qarshii</string>
+    <string name="transfer">Herrega Dabarsuu</string>
+    <string name="recharge_for_others">Namaa Kennuuf</string>
+
+    //Info Activity
+    <string name="change_language">QOOQA FILADHA</string>
+    <string name="rate_me">Madaali</string>
+    <string name="about_us">Waa\'ee Keenya</string>
+    <string name="more_tools">Dabalata</string>
+    <string name="settings">Qindeesituu</string>
+
+    <string name="call_waiting">Waamicha Tursiisuu</string>
+    <string name="call_forwarding">Waamicha Dabarsuu</string>
+
+    <string name="active">Jalqabsiisuuf</string>
+    <string name="deactive">Yeroodhaaf Addaan Kutuu</string>
+
+    // Text String
+    <string name="langSuccess">Qooqa Filateera</string>
+    <string name="failed">Lakkoofsa Bilbila Hin Fudhanne</string>
+    <string name="star">Urjii Shan Nuuf Kennaa :)</string>
+    <string name="ok">Tole</string>
+    <string name="welcome">BAGA NAGAAN DHUFTAN</string>
+    <string name="selectLang">Qooqa Filadha</string>
+
+    // Email Activity
+    <string name="send">Ergi</string>
+    <string name="feedbackHint">Dogoggora Kan Jiru Yoo Jiraate Nu Beeksiisa, Ni Sirressina</string>
+
+    // More Activity
+    <string name="ethio_gebeta">Itiyo Gabata</string>
+    <string name="credit_card">Liqii</string>
+    <string name="credit_card_service">Tajaajila Liqii</string>
+    <string name="call_center">Waamicha G/Galessa</string>
+
+    // Choice Package
+    <string name="internet_package">INTARNEETII</string>
+    <string name="voice_package">SAGALEE</string>
+    <string name="sms_package">ERGAA</string>
+    <string name="stay_home_package">MANA KESSAN TURAA</string>
+    <string name="premium_package">PIRIIMIYEMII</string>
+    <string name="voice_premium_package">VOICE</string>
+    <string name="internet_premium_package">INTERNET</string>
+    <string name="voice_plus_internet_premium_package">VOICE PLUS INTERNET</string>
+    <string name="voice_plus_data">SAGALEE FI INTARNEETII</string>
+    <string name="international_call">ADDUNYAAWAA (SAGALEE)</string>
+
+    // Gift Or Self Activity
+    <string name="for_your_self">Ofii Kessaniif</string>
+    <string name="for_gift">Namaa Kennuuf</string>
+
+    // Credit Card Activity
+    <string name="request">Liqii Gaafadha</string>
+    <string name="credit_5_etb_nprice_5_50_etb">Liqii : Qarshii 5\nGatii : Qarshii 5.50</string>
+    <string name="credit_10_etb_nprice_11_00_etb">Liqii : Qarshii 10\nGatii : Qarshii 11.00</string>
+    <string name="credit_15_etb_nprice_16_50_etb">Liqii : Qarshii 15\nGatii : Qarshii 16.50</string>
+    <string name="credit_25_etb_nprice_27_50_etb">Liqii : Qarshii 25\nGatii : Qarshii 27.50</string>
+    <string name="credit_50_etb_nprice_55_00_etb">Liqii : Qarshii 50\nGatii : Qarshii 55.00</string>
+    <string name="credit_100_etb_nprice_110_00_etb">Liqii : Qarshii 100\nGatii : Qarshii 110.00</string>
+
+    // Internet Self Activity
+    <string name="daily">KAN GUYYAA</string>
+    <string name="package_25_mb_nprice_3_00_etb">Kuufama : 30 MB\nGatii : Qarshii 3.00</string>
+    <string name="package_45_mb_nprice_5_00_etb">Kuufama : 70 MB\nGatii : Qarshii 5.00</string>
+    <string name="package_100_mb_nprice_10_00_etb">Kuufama : 145 MB\nGatii : Qarshii 10.00</string>
+    <string name="package_200_mb_nprice_15_00_etb">Kuufama : 250 MB\nGatii : Qarshii 15.00</string>
+    <string name="package_500_mb_nprice_35_00_etb">Kuufama : 500 MB\nGatii : Qarshii 28.00</string>
+    <string name="package_1_gb_nprice_45_etb">Kuufama : 1 GB \nGatii : Qarshii 45.00</string>
+
+    <string name="weekly">KAN TORBANII</string>
+    <string name="package_250_mb_nprice_27_00_etb">Kuufama : 250 MB\nGatii : Qarshii 27.00</string>
+    <string name="package_500_mb_nprice_50_00_etb">Kuufama : 500 MB\nGatii : Qarshii 50.00</string>
+    <string name="package_700_mb_nprice_60_00_etb">Kuufama : 700 MB\nGatii : Qarshii 60.00</string>
+    <string name="package_1_gb_nprice_80_00_etb">Kuufama : 1 GB\nGatii : Qarshii 80.00</string>
+    <string name="package_2_gb_nprice_120_etb">Kuufama : 2 GB \nGatii : Qarshii 120.00</string>
+
+    <string name="monthly">KAN JI\'AA</string>
+    <string name="package_500_mb_nprice_55_00_etb">Kuufama : 500 MB\nGatii : Qarshii 55.00</string>
+    <string name="package_1_gb_nprice_100_00_etb">Kuufama : 1 GB\nGatii : Qarshii 100.00</string>
+    <string name="package_2_gb_nprice_190_00_etb">Kuufama : 2 GB\nGatii : Qarshii 190.00</string>
+    <string name="package_4_gb_nprice_350_00_etb">Kuufama : 4 GB\nGatii : Qarshii 350.00</string>
+    <string name="package_8_gb_nprice_600_00_etb">Kuufama : 8 GB\nGatii : Qarshii 600.00</string>
+    <string name="package_10_gb_nprice_700_00_etb">Kuufama : 10 GB\nGatii : Qarshii 700.00</string>
+    <string name="package_20_gb_nprice_1300_00_etb">Kuufama : 20 GB\nGatii : Qarshii 1300.00</string>
+    <string name="package_30_gb_nprice_1800_00_etb">Kuufama : 30 GB\nGatii : Qarshii 1800.00</string>
+
+    <string name="night">KAN HALKANII</string>
+    <string name="package_50_mb_nprice_3_00_etb">Kuufama : 50 MB\nGatii : Qarshii 3.00</string>
+    <string name="package_100_mb_nprice_5_00_etb">Kuufama : 100 MB\nGatii : Qarshii 5.00</string>
+    <string name="package_160_mb_nprice_7_00_etb">Kuufama : 160 MB\nGatii : Qarshii 7.00</string>
+
+    <string name="weekend">SANBATAA FI DILBATAA</string>
+    <string name="package_500_mb_nprice_35_00_etb_w">Kuufama : 500 MB\nGatii : Qarshii 35.00</string>
+    <string name="package_1_gb_nprice_60_00_etb">Kuufama : 1 GB\nGatii : Qarshii 60.00</string>
+    <string name="package_2_gb_nprice_110_00_etb">Kuufama : 2 GB\nGatii : Qarshii 110.00</string>
+    <string name="buy">Bituu</string>
+
+    // Voice Self Activity
+    <string name="package_8_minutes_nprice_3_00_etb">Kuufama : Daqiiqaa 10\nGatii : Qarshii 3.00</string>
+    <string name="package_13_minutes_nprice_5_00_etb">Kuufama : Daqiiqaa 17\nGatii : Qarshii 5.00</string>
+    <string name="package_28_minutes_nprice_10_00_etb">Kuufama : Daqiiqaa 35\nGatii : Qarshii 10.00</string>
+
+    <string name="package_46_minutes_nprice_15_00_etb">Kuufama : Daqiiqaa 60\nGatii : Qarshii 15.00</string>
+    <string name="package_65_minutes_nprice_20_00_etb">Kuufama : Daqiiqaa 80\nGatii : Qarshii 20.00</string>
+    <string name="package_100_minutes_nprice_30_00_etb">Kuufama : Daqiiqaa 100\nGatii : Qarshii 25.00</string>
+
+    <string name="_100_minutes_n5mb_n30sms_nprice_40_00_etb">Kuufama : Daqiiqaa 100\nGatii : Qarshii 35.00</string>
+    <string name="_166_minutes_n5mb_n30sms_nprice_60_00_etb">Kuufama : Daqiiqaa 150\nGatii : Qarshii 50.00</string>
+    <string name="_280_minutes_n5mb_n30sms_nprice_100_00_etb">Kuufama : Daqiiqaa 300\nGatii : Qarshii 95.00</string>
+    <string name="_415_minutes_n5mb_n50sms_nprice_140_00_etb">Kuufama : Daqiiqaa 400\nGatii : Qarshii 120.00</string>
+    <string name="_450_minutes_n5mb_n50sms_nprice_150_00_etb">Kuufama : Daqiiqaa 500\nGatii : Qarshii 140.00</string>
+    <string name="_600_minutes_n5mb_n50sms_nprice_200_00_etb">Kuufama : Daqiiqaa 600\nGatii : Qarshii 165.00</string>
+    <string name="_750_minutes_n5mb_n50sms_nprice_250_00_etb">Kuufama : Daqiiqaa 750\nGatii : Qarshii 200.00</string>
+    <string name="_830_minutes_n5mb_n80sms_nprice_270_00_etb">Kuufama : Daqiiqaa 1000\nGatii : Qarshii 240.00</string>
+    <string name="_930_minutes_n5mb_n80sms_nprice_300_00_etb">Kuufama : Daqiiqaa 1250\nGatii : Qarshii 295.00</string>
+    <string name="_1080_minutes_n50mb_n80sms_nprice_350_00_etb">Kuufama : Daqiiqaa 1500\nGatii : Qarshii 350.00</string>
+    <string name="_1230_minutes_n50mb_n80sms_nprice_400_00_etb">Kuufama : Daqiiqaa 1750\nGatii : Qarshii 405.00</string>
+    <string name="_1380_minutes_n50mb_n80sms_nprice_450_00_etb">Kuufama : Daqiiqaa 2000\nGatii : Qarshii 460.00</string>
+
+    <string name="package_30_minutes_nprice_3_49_etb">Kuufama : Daqiiqaa 30\nGatii : Qarshii 3.49</string>
+    <string name="package_60_minutes_nprice_4_99_etb">Kuufama : Daqiiqaa 60\nGatii : Qarshii 4.99</string>
+    <string name="package_120_minutes_nprice_6_99_etb">Kuufama : Daqiiqaa 120\nGatii : Qarshii 6.99</string>
+    <string name="package_420_minutes_nprice_9_99_etb">Kuufama : Daqiiqaa 420\nGatii : Qarshii 9.99</string>
+
+    // Sms Self Activity
+    <string name="package_18_sms_nprice_2_00_etb">Kuufama : Ergaa 18\nGatii : Qarshii 2.00</string>
+    <string name="package_35_sms_nprice_3_00_etb">Kuufama : Ergaa 35\nGatii : Qarshii 3.00</string>
+    <string name="package_70_sms_nprice_5_00_etb">Kuufama : Ergaa 70\nGatii : Qarshii 5.00</string>
+
+    <string name="package_140_sms_nprice_10_00_etb">Kuufama : Ergaa 140\nGatii : Qarshii 10.00</string>
+    <string name="package_283_sms_nprice_15_00_etb">Kuufama : Ergaa 283\nGatii : Qarshii 15.00</string>
+    <string name="package_525_sms_nprice_30_00_etb">Kuufama : Ergaa 525\nGatii : Qarshii 30.00</string>
+    <string name="package_1050_sms_nprice_50_00_etb">Kuufama : Ergaa 1050\nGatii : Qarshii 50.00</string>
+
+    // International Call
+    <string name="_2_weeks">KAN TORBAN 2</string>
+    <string name="package_10_minutes_nprice_59_etb">Kuufama : 10 Daqiiqaa\nGatii : Qarshii 59.00</string>
+    <string name="package_20_minutes_nprice_100_etb">Kuufama : 20 Daqiiqaa\nGatii : Qarshii 100.00</string>
+    <string name="package_50_minutes_nprice_195_etb">Kuufama : 50 Daqiiqaa\nGatii : Qarshii 195.00</string>
+
+    // Voice Plus Data
+    <string name="_10_minutes_n145_mb_n10_sms_nprice_12_etb">10 Daqiiqaa\n145 MB\n10 Ergaa\nGatii : Qarshii 12.00</string>
+    <string name="_35_minutes_n145_mb_n10_sms_nprice_19_etb">35 Daqiiqaa\n145 MB\n10 Ergaa\nGatii : Qarshii 19.00</string>
+    <string name="_10_minutes_n500_mb_n10_sms_nprice_29_etb">10 Daqiiqaa\n500 MB\n10 Ergaa\nGatii : Qarshii 29.00</string>
+    <string name="_35_minutes_n500_mb_n10_sms_nprice_36_etb">35 Daqiiqaa\n500 MB\n10 Ergaa\nGatii : Qarshii 36.00</string>
+    <string name="_10_minutes_n1_gb_n10_sms_nprice_46_etb">10 Daqiiqaa\n1 GB\n10 Ergaa\nGatii : Qarshii 46.00</string>
+    <string name="_35_minutes_n1_gb_n10_sms_nprice_52_etb">35 Daqiiqaa\n1 GB\n10 Ergaa\nGatii : Qarshii 52.00</string>
+    <string name="_60_minutes_n500_mb_n20_sms_nprice_50_etb">60 Daqiiqaa\n500 MB\n20 Ergaa\nGatii : Qarshii 50.00</string>
+    <string name="_80_minutes_n500_mb_n20_sms_nprice_55_etb">80 Daqiiqaa\n500 MB\n20 Ergaa\nGatii : Qarshii 55.00</string>
+    <string name="_60_minutes_n1_gb_n20_sms_nprice_81_etb">60 Daqiiqaa\n1 GB\n20 Ergaa\nGatii : Qarshii 81.00</string>
+    <string name="_80_minutes_n1_gb_n20_sms_nprice_86_etb">80 Daqiiqaa\n1 GB\n20 Ergaa\nGatii : Qarshii 86.00</string>
+    <string name="_60_minutes_n2_gb_n20_sms_nprice_128_etb">60 Daqiiqaa\n2 GB\n20 Ergaa\nGatii : Qarshii 128.00</string>
+    <string name="_80_minutes_n2_gb_n20_sms_nprice_133_etb">80 Daqiiqaa\n2 GB\n20 Ergaa\nGatii : Qarshii 133.00</string>
+    <string name="_100_minutes_n2_gb_n50_sms_nprice_157_etb">100 Daqiiqaa\n2 GB\n50 Ergaa\nGatii : Qarshii 157.00</string>
+    <string name="_300_minutes_n2_gb_n50_sms_nprice_214_etb">300 Daqiiqaa\n2 GB\n50 Ergaa\nGatii : Qarshii 214.00</string>
+    <string name="_400_minutes_n2_gb_n50_sms_nprice_238_etb">400 Daqiiqaa\n2 GB\n50 Ergaa\nGatii : Qarshii 238.00</string>
+    <string name="_500_minutes_n2_gb_n50_sms_nprice_257_etb">500 Daqiiqaa\n2 GB\n50 Ergaa\nGatii : Qarshii 257.00</string>
+    <string name="_1000_minutes_n2_gb_n50_sms_nprice_360_etb">1000 Daqiiqaa\n2 GB\n50 Ergaa\nGatii : Qarshii 360.00</string>
+    <string name="_100_minutes_n4_gb_n50_sms_nprice_270_etb">100 Daqiiqaa\n4 GB\n50 Ergaa\nGatii : Qarshii 270.00</string>
+    <string name="_300_minutes_n4_gb_n50_sms_nprice_328_etb">300 Daqiiqaa\n4 GB\n50 Ergaa\nGatii : Qarshii 328.00</string>
+    <string name="_500_minutes_n4_gb_n50_sms_nprice_371_etb">500 Daqiiqaa\n4 GB\n50 Ergaa\nGatii : Qarshii 371.00</string>
+    <string name="_1000_minutes_n4_gb_n50_sms_nprice_466_etb">1000 Daqiiqaa\n4 GB\n50 Ergaa\nGatii : Qarshii 466.00</string>
+    <string name="_100_minutes_nunlimited_internet_n50_sms_nprice_1514_etb">100 Daqiiqaa\nIntarneetii Hin Daangeffamnee\n50 Ergaa\nGatii : Qarshii 1514.00</string>
+    <string name="_300_minutes_nunlimited_internet_n50_sms_nprice_1525_etb">300 Daqiiqaa\nIntarneetii Hin Daangeffamnee\n50 Ergaa\nGatii : Qarshii 1525.00</string>
+    <string name="_400_minutes_nunlimited_internet_n50_sms_nprice_1549_etb">400 Daqiiqaa\nIntarneetii Hin Daangeffamnee\n50 Ergaa\nGatii : Qarshii 1549.00</string>
+    <string name="_500_minutes_nunlimited_internet_n50_sms_nprice_1568_etb">500 Daqiiqaa\nIntarneetii Hin Daangeffamnee\n50 Ergaa\nGatii : Qarshii 1568.00</string>
+    <string name="_1000_minutes_nunlimited_internet_n50_sms_nprice_1663_etb">1000 Daqiiqaa\nIntarneetii Hin Daangeffamnee\n50 Ergaa\nGatii : Qarshii 1663.00</string>
+
+    <string name="Daily_Package_for_24_hours">Kuufama kan guyyaa, sa\'aa 24\'f kan turu</string>
+    <string name="Weekly_Package_for_7_days">Kuufama kan torbanii, guyyoota 7\'f kan turu</string>
+    <string name="Monthly_Package_for_30_days">Kuufama kan ji\'aa, guyyoota 30\'f kan turu</string>
+    <string name="_2_weeks_Package_for_14_days">Kuufama kan torban 2, guyyoota 14\'f kan turu</string>
+
+    // Good Morning
+    <string name="voice_package_8_minutes_n5_sms_nprice_2_etb">Sagalee : 8 Daqiiqaa\n5 Ergaa\nGatii : Qarshii 2</string>
+    <string name="internet_package_25_mb_n5_sms_nprice_2_etb">Intarneetii : 25 MB\n5 Ergaa\nGatii : Qarshii 2</string>
+    <string name="voice_plus_data_8_minutes_n25_mb_10_sms_nprice_3_etb">Sagalee Fi Intarneetii \n8 Daqiiqaa\n25 MB, 10 Ergaa\nGatii : Qarshii 3</string>
+
+    // Stay Safe
+    <string name="voice_only_35_minutes_n20_sms_nprice_5_etb">Sagalee : 35 Daqiiqaa\n20 Ergaa\nGatii : Qarshii 5</string>
+    <string name="data_only_150_mb_n20_sms_nprice_5_etb">Intarneetii : 150 MB\n20 Ergaa\nGatii : Qarshii 5</string>
+    <string name="data_only_500_mb_n20_sms_nprice_15_etb">Intarneetii : 500 MB\n20 Ergaa\nGatii : Qarshii 15</string>
+    <string name="voice_data_700_mb_n35_minutes_n20_sms_nprice_25_etb">Sagalee Fi Intarneetii\n700 MB\n35 Daqiiqaa\n20 Ergaa\nGatii :Qarshii 25 ETB</string>
+
+    // Unlimited Package
+    <string name="voice_premium_nprice_440_etb">Sagalee Hin Daangeffamnee\nGatii : Qarshii 440</string>
+    <string name="internet_premium_nprice_440_etb">Intarneetii Hin Daangeffamnee\nGatii : Qarshii 440</string>
+    <string name="voice_internet_premium_nprice_765_etb">Sagalee Fi Intarneetii \nHin Daangeffamnee\nGatii : Qarshii 765</string>
+    <string name="voice_premium_nprice_836_etb">Sagalee Hin Daangeffamnee\nGatii : Qarshii 836</string>
+    <string name="internet_premium_nprice_836_etb">Intarneetii Hin Daangeffamnee\nGatii : Qarshii 836</string>
+    <string name="voice_internet_premium_nprice_1436_etb">Sagalee Fi Intarneetii \nHin Daangeffamnee\nGatii : Qarshii 1436</string>
+    <string name="voice_premium_nprice_1510_etb">Sagalee Hin Daangeffamnee\nGatii : Qarshii 1510</string>
+    <string name="internet_premium_nprice_1510_etb">Intarneetii Hin Daangeffamnee\nGatii : Qarshii 1510</string>
+    <string name="voice_internet_premium_nprice_2545_etb">Sagalee Fi Intarneetii \nHin Daangeffamnee\nGatii : Qarshii 2545</string>
+
+    //flexi
+    <string name="_300_flexi_unit_nfree_30_flexi_unit_nprice_15_etb">Fileeksii 300\nBilisaan Fileeksii 30\nGatii : Qarshii 15</string>
+    <string name="_410_flexi_unit_nfree_40_flexi_unit_nprice_20_etb">Fileeksii 410\nBilisaan Fileeksii 40\nGatii : Qarshii 20</string>
+    <string name="_1150_flexi_unit_nfree_120_flexi_unit_nprice_50_etb">Fileeksii 1150\nBilisaan Fileeksii 120\nGatii : Qarshii 50</string>
+    <string name="_1900_flexi_unit_nfree_200_flexi_unit_nprice_80_etb">Fileeksii 1900\nBilisaan Fileeksii 200\nGatii : Qarshii 80</string>
+    <string name="_1900_flexi_unit_nfree_260_flexi_unit_nprice_100_etb">Fileeksii 1900\nBilisaan Fileeksii 260\nGatii : Qarshii 100</string>
+    <string name="_3200_flexi_unit_nfree_400_flexi_unit_nprice_150_etb">Fileeksii 3200\nBilisaan Fileeksii 400\nGatii : Qarshii 150</string>
+
+    // Recurring Package
+    <string name="recurring">Deddeebi\'ee Haaromu</string>
+    <string name="_100_minutes_nprice_35_etb">100 Daqiiqaa \nGatii : Qarshii 35</string>
+    <string name="_150_minutes_nprice_50_etb">150 Daqiiqaa \nGatii : Qarshii 50</string>
+    <string name="_300_minutes_nprice_95_etb">300 Daqiiqaa \nGatii : Qarshii 95</string>
+    <string name="_400_minutes_nprice_120_etb">400 Daqiiqaa \nGatii : Qarshii 120</string>
+    <string name="_500_minutes_nprice_140_etb">500 Daqiiqaa \nGatii : Qarshii 140</string>
+    <string name="_600_minutes_nprice_165_etb">600 Daqiiqaa \nGatii : Qarshii 165</string>
+    <string name="_750_minutes_nprice_200_etb">750 Daqiiqaa \nGatii : Qarshii 200</string>
+
+    <string name="_500_mb_nprice_40_etb">500 MB \nGatii : Qarshii 40</string>
+    <string name="_1_gb_nprice_75_etb">1 GB \nGatii : Qarshii 75</string>
+    <string name="_2_gb_nprice_130_etb">2 GB \nGatii : Qarshii 130</string>
+    <string name="_4_gb_nprice_250_etb">4 GB \nGatii : Qarshii 250</string>
+
+    <string name="_100_minutes_n2_gb_nprice_157_etb">100 Daqiiqaa \n2 GB\nGatii : Qarshii 157</string>
+    <string name="_300_minutes_n2_gb_nprice_214_etb">300 Daqiiqaa \n2 GB\nGatii : Qarshii 214</string>
+    <string name="_400_minutes_n2_gb_nprice_238_etb">400 Daqiiqaa \n2 GB\nGatii : Qarshii 238</string>
+    <string name="_500_minutes_n2_gb_nprice_257_etb">500 Daqiiqaa \n2 GB\nGatii : Qarshii 257</string>
+    <string name="_1000_minutes_n2_gb_nprice_360_etb">1000 Daqiiqaa \n2 GB\nGatii : Qarshii 360</string>
+    <string name="_100_minutes_n4_gb_nprice_270_etb">100 Daqiiqaa \n4 GB\nGatii : Qarshii 270</string>
+    <string name="_300_minutes_n4_gb_nprice_328_etb">300 Daqiiqaa \n4 GB\nGatii : Qarshii 328</string>
+    <string name="_400_minutes_n4_gb_nprice_352_etb">400 Daqiiqaa \n4 GB\nGatii : Qarshii 352</string>
+    <string name="_500_minutes_n4_gb_nprice_371_etb">500 Daqiiqaa \n4 GB\nGatii : Qarshii 371</string>
+    <string name="_1000_minutes_n4_gb_nprice_466_etb">1000 Daqiiqaa \n4 GB\nGatii : Qarshii 466</string>
+    <string name="_100_minutes_nunlimited_data_nprice_1514_etb">100 Daqiiqaa \nIntarneetii Hin Daangeffamnee\nGatii : Qarshii 1514</string>
+    <string name="_300_minutes_nunlimited_data_nprice_1525_etb">300 Daqiiqaa \nIntarneetii Hin Daangeffamnee\nGatii : Qarshii 1525</string>
+    <string name="_400_minutes_nunlimited_data_nprice_1549_etb">400 Daqiiqaa \nIntarneetii Hin Daangeffamnee\nGatii : Qarshii 1549</string>
+    <string name="_500_minutes_nunlimited_data_nprice_1568_etb">500 Daqiiqaa \nIntarneetii Hin Daangeffamnee\nGatii : Qarshii 1568</string>
+    <string name="_1000_minutes_nunlimited_data_nprice_1663_etb">1000 Daqiiqaa \nIntarneetii Hin Daangeffamnee\nGatii : Qarshii 1663</string>
+
+    <string name="unlimited_voice_nprice_1510_etb">Sagalee Hin Daangeffamnee \nGatii : Qarshii 1510</string>
+    <string name="unlimited_internet_nprice_1510_etb">Intarneetii Hin Daangeffamnee \nGatii : Qarshii 1510</string>
+    <string name="unlimited_voice_internet_nprice_2545_etb">Sagalee Fi Intarneetii \nHin Daangeffamnee \nGatii : Qarshii 2545</string>
+
+    <string name="unlimited_voice_data_sms_ninternational_100_minutes_nand_50_sms_nprice_3530_etb">Sagalee Hin Daangeffamnee \nIntarneetii,Ergaa \nAddunyaawaa 100 Daqiiqaa \n50 Ergaa \nGatii : Qarshii 3530</string>
+    <string name="_9000_minutes_60_gb_n870_sms_ninternational_100_minutes_nand_50_sms_nprice_2940_etb">9000 Daqiiqaa, 60 GB\n870 Ergaa \nAddunyaawaa 100 Daqiiqaa \n50 Ergaa \nGatii : Qarshii 2940</string>
+
+    // Package Choice
+    <string name="flexi_package">Kuufama Fileeksii</string>
+    <string name="good_morning">Kuufama Ganamaa</string>
+    <string name="stay_safe">Fayyaadhaan Turaa</string>
+    <string name="unlimited_offers">Kan Hin Daangeffamnee</string>
+
+    //flexi Description
+    <string name="Daily_flexi">Kuufama Fileeksii kan guyyaa, sa\'aa 24\'f kan turu</string>
+    <string name="Weekly_flexi">Kuufama Fileeksii kan torbanii, guyyoota 7\'f kan turu</string>
+    <string name="Monthly_flexi">Kuufama Fileeksii kan ji\'aa, guyyoota 30\'f kan turu</string>
+
+    <string name="Monthly_Recurring_Package_for_30_days">Kuufama Deddeebi\'ee Haaromu kan ji\'aa, guyyoota 30\'f kan turu</string>
+
+    <string name="successLang">Qooqni filattan milkaa\'inaan jijjirameera</string>
+    <string name="package_offers" >TAJAAJILA KUUFAMAA</string>
+    <string name="premium_unlimited_offers" >PIRIIMIYEMII HIN DAANGEFFAMNE</string>
+    <string name="Share" >Waliif Qooduu</string>
+
+    <string name="change_theme">Bifa Jijjiiraa</string>
+    <string name="check_my_balance_on_start_up">Baniinsarrati Haftee Herrega Gaafadhu</string>
+    <string name="random_animations_on_start_up">RANDOM ANIMATIONS ON START UP</string>
+
+    <string name="Daily_Internet_Package_For_24_Hours">Kuufama intarneetii kan guyyaa, sa\'aa 24\'f kan turu</string>
+    <string name="Weekly_Internet_Package_for_7_days">Kuufama intarneetii kan torbanii, guyyoota 7\'f kan turu</string>
+    <string name="Monthly_Internet_Package_for_30_days">Kuufama intarneetii kan ji\'aa, guyyoota 30\'f kan turu</string>
+    <string name="Night_Internet_Package_for_6_hours">Kuufama intarneetii kan halkanii, sa\'aa 6\'f kan turu \n(halkan sa\'aa 6:00 "-" 12:00)</string>
+    <string name="Weekend_Internet_Package_for_2_days">Kuufama intarneetii sanbataa fi dilbataa, guyyoota 2\'f kan turu</string>
+
+    <string name="Daily_SMS_Package_for_24_hours">Kuufama ergaa kan guyyaa, sa\'aa 24\'f kan turu</string>
+    <string name="Weekly_SMS_Package_for_7_days">Kuufama ergaa kan torbanii, guyyoota 7\'f kan turu</string>
+    <string name="Monthly_SMS_Package_for_30_days">Kuufama ergaa kan ji\'aa, guyyoota 30\'f kan turu</string>
+
+    <string name="Daily_Voice_Package_for_24_hours">Kuufama sagalee kan guyyaa, sa\'aa 24\'f kan turu</string>
+    <string name="Weekly_Voice_Package_for_7_days">Kuufama sagalee kan torbanii, guyyoota 7\'f kan turu</string>
+    <string name="Monthly_Voice_Package_for_30_days">Kuufama sagalee kan ji\'aa, guyyoota 30\'f kan turu</string>
+    <string name="Night_Voice_Package_for_6_hours">Kuufama sagalee kan halkanii,\nsa\'aa 6\'f kan turu\n(halkan sa\'aa 6:00 "-" 12:00)</string>
+
+    <string name="call_forward_description">Tajaajilli Waamicha Dabarsuu waamicha isiniif bilbilame gara bilbila nama birootti dabarsuuf isin dandessisa</string>
+    <string name="call_waiting_description">Tajaajilli Waamicha Tursiisuu yeroo isin nama biroo wajjin dubbataa jirtanitti waamicha dabalataa isiniif bilbilamaa jiraachuu beekuu isin dandeessisa</string>
+    <string name="dark_mode">Moodii Halkanii</string>
+    <string name="general">WALIIGALA</string>
+    <string name="myinterface">WALQUNNAMA</string>
+    <string name="advanced">OLAANAA</string>
+    <string name="update">Haaromsi</string>
+    <string name="feedback">Dubdeebii</string>
+    <string name="black_icon">Sajoo Gurraacha</string>
+    <string name="disable_out_side_touch">Tuqaatii bakkee ittisu</string>
+
+    <string name="UnlimitedPremium">Primiyeemii Hin Daangeffamnee</string>
+    <string name="UnlimitedPremiumPlus">Primiyeemii Pilaasi Hin Daangeffamnee</string>
+    <string name="LimitedPremiumPlus">Primiyeemii Pilaasi daangefame</string>
+
+    <string name="title_activity_setting">SettingActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="coming_soon">Coming Soon</string>
+    <string name="check_forwarding">Waamicha Darbe Ilaaluu</string>
+    <string name="transfer_balance_without_confirmation">Mirkannessa Malee Herrega Dabarsu</string>
+
+    <string name="check">HAFTEE HERREGA</string>
+    <string name="recharges">HERREGA GUUTUU</string>
+    <string name="transfers">HERREGA DABARSUU</string>
+    <string name="call_me_backs">DEEBISA NAAF BILILA</string>
+    <string name="gebeta">ITIYO GABATA</string>
+    <string name="credit">TAJAAJILA LIQII</string>
+    <string name="forwarding">WAAMICHA DABARSUU</string>
+    <string name="waiting">WAAMICHA TURSIISUU</string>
+    <string name="website">MARSARIITI</string>
+    <string name="call_centers">WAAMICHA G/GALESSA</string>
+    <string name="more">DABALATA</string>
+    <string name="mysettings">QINDEESITUU</string>
+    <string name="floating_icon">Sajoo Bololi\'aa</string>
+    <string name="shortcut">QAXXAAMURA</string>
+    <string name="remove_text_under_icon">Sajoo jala bareefama Haqu</string>
+    <string name="airtime">Yeroo Qillensaa</string>
+    <string name="credit_description">Kuufama Liqii</string>
+
+    <string name="daily_voice_package_ncredit_17_minutes_nprice_5_etb">Sagalee kan guyyaa\nLiqii : 17 Daqiiqaa\nGatii : Qarshii 5</string>
+    <string name="daily_voice_package_ncredit_35_minutes_nprice_10_etb">Sagalee kan guyyaa\nLiqii : 35 Daqiiqaa\nGatii : Qarshii 10</string>
+    <string name="weekly_voice_package_ncredit_60_minutes_nprice_15_etb">Sagalee kan torbanii\nLiqii : 60 Daqiiqaa\nGatii : Qarshii 15</string>
+    <string name="weekly_voice_package_ncredit_100_minutes_nprice_25_etb">Sagalee kan torbanii\nLiqii : 100 Daqiiqaa\nGatii : Qarshii 25</string>
+    <string name="monthly_voice_package_ncredit_150_minutes_nprice_50_etb">Sagalee kan ji\'aa\nLiqii : 150 Daqiiqaa\nGatii : Qarshii 50</string>
+    <string name="monthly_voice_package_ncredit_300_minutes_nprice_95_etb">Sagalee kan ji\'aa\nLiqii : 300 Daqiiqaa\nGatii : Qarshii 95</string>
+
+    <string name="daily_internet_package_ncredit_70_mb_nprice_5_etb">Intarneetii kan guyyaa\nLiqii : 70 MB\nGatii : Qarshii 5</string>
+    <string name="daily_internet_package_ncredit_145_mb_nprice_10_etb">Intarneetii kan guyyaa\nLiqii : 145 MB\nGatii : Qarshii 10</string>
+    <string name="daily_internet_package_ncredit_250_mb_nprice_15_etb">Intarneetii kan guyyaa\nLiqii : 250 MB\nGatii : Qarshii 15</string>
+    <string name="daily_internet_package_ncredit_500_mb_nprice_28_etb">Intarneetii kan guyyaa\nLiqii : 500 MB\nGatii : Qarshii 28</string>
+    <string name="weekly_internet_package_ncredit_750_mb_nprice_55_etb">Intarneetii kan ji\'aa\nLiqii : 750 MB\nGatii : Qarshii 55</string>
+    <string name="daily_internet_package_ncredit_1_gb_nprice_70_etb">Intarneetii kan ji\'aa\nLiqii : 1 GB\nGatii : Qarshii 70</string>
+
+</resources>

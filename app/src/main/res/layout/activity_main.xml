@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="match_parent"
+	android:layout_height="400.0dip"
+	android:id="@+id/buttonPermission"
+	android:gravity="center"
+	android:layout_gravity="center"
+	android:orientation="vertical">
+
+	<androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_gravity="center"
+		android:layout_weight="1"
+		android:id="@+id/swipeCheckBalance">
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="400.0dip"
+			android:orientation="vertical"
+			android:gravity="center">
+			<RelativeLayout
+				android:layout_width="match_parent"
+				android:layout_height="400.0dip"
+				android:id="@+id/mainBackground"
+				android:orientation="horizontal">
+				<androidx.viewpager.widget.ViewPager
+					android:id="@+id/pager"
+					android:layout_width="fill_parent"
+					android:layout_height="fill_parent" />
+				<com.google.android.material.tabs.TabLayout
+					android:id="@+id/tab_indicatorHome"
+					android:layout_width="35dp"
+					android:layout_height="15.0dip"
+					android:layout_alignBottom="@+id/pager"
+					android:layout_alignParentBottom="true"
+					android:layout_centerInParent="true"
+					app:tabBackground="@drawable/indicator_selector"
+					app:tabIndicatorColor="#0D000000" />
+			</RelativeLayout>
+		</LinearLayout>
+
+	</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+</LinearLayout>
