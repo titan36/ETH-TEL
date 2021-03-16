@@ -46,3 +46,7 @@ This is an Android Application That provide All ethiotelecom service.
 ## Download it From Play Store
 
 [<img src="https://play.google.com/intl/en_us/badges/images/apps/en-play-badge-border.png" width="200" alt="Get ETH TEL on Google Play Store" />](https://play.google.com/store/apps/details?id=eth.tel.com "Get ETH TEL on Google Play Store")
+
+<br>
+<p align="center">Made with ❤️ By <a href="https://t.me/ag3m3chu"> 丹 乃 刀 工 </a></p>
+<p align="center" style="font-size: 8px">version 1.0.0</p>
